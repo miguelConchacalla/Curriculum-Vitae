@@ -1,0 +1,104 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 170px 1250px;
+    grid-template-columns: 300px 500px;
+}
+.grid-item1 {
+    background-color: grey;
+    width: 300px;
+    height: 170px;
+    position: relative;
+    text-align: center;
+}
+#imagen-perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 80px;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+.grid-item2 {
+    background-color: grey;
+    width: 500px;
+    height: 170px;
+}
+nav {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    right: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+#nombre {
+    font-size: 48px;
+    font-family: condensed 120% sans-serif;
+
+}
+#ocupac {
+    font-size: 22px;
+    font-family: condensed 120% sans-serif;
+    color: #AFAFAF;
+}
+.nomOcup {
+    list-style: none;
+}
+.grid-item3 {
+    background-color: #F2F2F2;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 250px;
+}
+.subgrid3 {
+    width: 200px;
+    height: 250px;
+    padding: 0 50px;
+}
+.subtit {
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.grid-item4 {
+    background-color: #FFFFFF;
+    grid-template-rows: 200px 750px 300px;
+    grid-template-columns: 500px;
+    text-align: center;
+}
+.subgrid4-1 {
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    padding: 0 50px;
+}
+.subgrid4-2 {
+    width: 400px;
+    height: 750px;
+    text-align: left;
+    padding: 0 50px;
+}
+.puntos {
+    font-weight: bold;
+    font-size: 18px;
+}
+.anho {
+    color: #747474;
+}
+.subgrid4-3 {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    padding: 0 50px;
+}
+.lineaH {
+    height: 2px;
+    background: black;
+}
+ul {
+    margin: 10px 0px 30px 9px;
+    padding: 0px 0px 0px 9px;
+}
+
